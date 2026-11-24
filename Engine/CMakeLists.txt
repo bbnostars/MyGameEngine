@@ -6,6 +6,7 @@ target_sources(Engine
   PRIVATE
     src/Engine.cpp
     src/Camera.cpp
+    src/Player.cpp
 
   PUBLIC
     FILE_SET HEADERS
@@ -15,7 +16,8 @@ target_sources(Engine
       include/MapHelper.h
       include/EngineExport.h
       include/Camera.h 
-      include/types/Size.h)
+      include/types/Size.h 
+      include/Player.h)
 
 target_link_libraries(Engine
   PUBLIC
